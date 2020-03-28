@@ -1,180 +1,129 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="style.css" />
+  <title>Ortal Parpara</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="shortcut icon" type="image/png" href="OP_logo_shortcuticon.png"/>
 </head>
+
 <body>
 <div id="menu">
-<li><a href="#about">About Me</a></li>
-<li><a href="#photos">My Photos</a></li>
-<li><a href="#playlist">My Playlist</a></li>
-<li><a href="#like">Like</a></li>
-<li><a href="#qrcoder">QR code</a></li>
-<li><a href="#spa">Q&A</a></li>
-<li><a href="#contact">Contact Me</a></li>
+  <nav>
+    <ul>
+      <img id="logo" src="OP_logo.png">
+      <li><a href="#aboutme">ABOUT ME</a></li>
+      <li><a href="#myphotos">MY PHOTOS</a></li>
+      <li><a href="#playlist">MY PLAYLISTS</a></li>
+      <li><a href="#like">LIKE</a></li>
+      <li><a href="#qrcoder">QR CODE</a></li>
+      <li><a href="#qanda">Q&A</a></li>
+      <li><a href="#contact">CONTACT ME</a></li>
+    </ul>
+  </nav>
 </div>
-		  
-<section id="about" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-about me
-<br/>
-<br/>
-<br/>
-</section>
 
-<section id="photos" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my photos
-<br/>
-<br/>
-<br/>
-</section>
+<div id="aboutme" class="section">
+  <container  id="about" class="content">
+    <p class="header">About Me</p>
+    <p class="writing">
+      My name is Ortal Parpara, I am 26 years old, originally from Kfar Saba. <br>
+      I currently live in Beer Sheva, studying Software and Information System Engineering in BGU.<br>
+      In my free time (when there is no Coronavirus around) I love travelling and baking <br>
+      (see the pictures below). In Beer Sheva I also do Crossfit training, volunteer with new immigrant <br>
+      children with my scholarship “Keren Moshe” and I am an area manager in the “She Codes” organization.  <br>
+      I expect from this course to give me the ability to create a website <br> 
+      and mainly understand the correct way to design the code for a big web project.<br>
+      In this exercise the main struggle for me was to decide on a design and then implement it<br>
+      using the CSS features.<br>
+      </p>
+  </container>
+</div>
 
-<section id="playlist" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my playlist
-<br/>
-<br/>
-<br/>
-</section>
+<!-- PHOTOS -->
 
-<section id="like" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-give me a like
-<br/>
-<br/>
-<br/>
-</section>
+<div id="myphotos" class="section">
+  <container class="content">
+    <p class="header">My Photos</p>
+  </container> 
+</div>
 
-<section id="qrcoder" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-scan my code
-<br/>
-<br/>
-<br/>
-</section>
+<div class="section">
+  <container class="imgs, section">
+    <img src="Photos/1.jpg" id="one" class="img" >
+    <img src="Photos/2.jpg" id="two" class="img" >
+    <img src="Photos/3.jpg" id="three" class="img" >
+  </container>  
+</div>
 
-<section id="spa" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-ans
-<br/>
-<br/>
-<br/>
-</section>
+<div class="section">
+  <container class="imgs, section">
+    <img src="Photos/4.jpg" id="four" class="img" >
+    <img src="Photos/5.jpg" id="five" class="img" >
+    <img src="Photos/6.jpg" id="six" class="img" >
+  </container>  
+</div>
 
-<section id="contact" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-contact me
-<br/>
-<br/>
-<br/>
-</section>
+<div class="section">
+  <container class="imgs, section">
+    <img src="Photos/7.jpg" id="seven" class="img" >
+    <img src="Photos/8.jpg" id="eight" class="img" >
+    <img src="Photos/9.jpg" id="nine" class="img" >
+  </container>  
+</div>
 
+<div class="section">
+  <container class="imgs, section">
+    <img src="Photos/10.jpg" id="ten" class="img" >
+    <img src="Photos/11.jpg" id="eleven" class="img" >
+    <img src="Photos/12.jpg" id="twelve" class="img" >
+  </container>  
+</div>
+
+<!-- PLAYLIST -->
+
+<div id="playlist" class="section">
+  <container id="video" class="content">
+    <p class="header">My Playlist</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL8afirEJjgZKNZrLD4rsuYvxFI3YcN0W4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </container>
+</div>
+
+<!-- LIKE -->
+
+<div id="like" class="section">
+  <container id="like_container" class="content">
+    <p class="header">Give Me A Like</p>
+    <div class="fb-like" data-href="https://sise-web-development-environments.github.io/3111127005/." data-width="" data-layout="standard" data-action="like" data-size="large" data-share="true"></div>
+  </container>
+</div>
+
+<!-- QR CODE -->
+
+<div id="qrcoder" class="section">
+  <container class="content">
+    <p class="header">Scan My Code</p>
+    <img src="QR.png" id="QR" class="img" >
+  </container>
+</div>
+
+<!-- ANSWERS -->
+
+<div id="qanda" class="section">
+  <container class="content">
+    <p class="header">Q&A</p>
+  </container>
+</div>
+
+<!--  -->
+
+<div id="contact" class="section">
+  <container class="content">
+    <p class="header">Contact Me</p>
+  </container>
+</div>
+
+
+<!-- SCRIPTS -->
 
 <script type="text/javascript">
 $(function(){
@@ -189,5 +138,9 @@ $(function(){
     $('#menu').toggle($(this).scrollTop()>1000)
  });​
  </script>
+
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0"></script>
+
 </body>
 </html>
