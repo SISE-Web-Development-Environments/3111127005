@@ -73,10 +73,17 @@ a:hover{
 	text-align: center;
 }
 
+.header{
+	font-weight: bold;
+	font-size: large;
+	color: #06729D;
+}
+
 .writing{
 	text-align: left;
 	margin-left: 2rem;
 	margin-bottom: 2rem;
+	color: #06729D;
 }
 
 .imgs{
@@ -97,8 +104,30 @@ img{
 	margin-top: 1rem;
 }
 
-.fb-like {
-	font-size: large !important;
+.field{
+	padding-top: 1rem;
+}
+
+.textarea{
+	width: 25rem !important;
+	height: 7rem;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	text-align: left !important;
+}
+
+.button{
+	padding: 0.5rem;
+	margin: 1rem;
+}
+
+.button:hover{
+	color: #B1C1D4;
+}
+
+#subject{
+	width: 25rem;
+	height: 1.5rem;
 }
 
 #one {
