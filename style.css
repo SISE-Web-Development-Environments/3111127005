@@ -3,7 +3,9 @@ body {
 	margin: 0 !important;
     padding: 0 !important;
 	background-image: url("bodybackground.jpg");
+	/* box-shadow: 0 0 8px 8px #B1C1D4 inset; */
 	/* background-repeat: no-repeat; */
+	border-image-repeat: stretch;
 }
 
 /*Nav bar design*/
