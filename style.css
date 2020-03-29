@@ -86,6 +86,11 @@ a:hover{
 	color: #06729D;
 }
 
+#answers {
+	text-align: right !important;
+	margin-right: 2rem;
+}
+
 .imgs{
 	display: flex;
 	margin-top: 3rem;
